@@ -15,7 +15,7 @@ var express = require("express");
 var router = express.Router();
 mod = require('../models/burgers');
 
-router.get("/", function(req, res) {
+router.get("*", function(req, res) {
   
   mod.getallburgers(function(data) {
     var hbsObject = {
