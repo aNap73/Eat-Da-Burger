@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This fun app will use, JS, Node, Express, Handlebars and sql to create a burger eatten tracker.",
   "main": "index.js",
+  "start": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/aNap73/Eat-Da-Burger.git"
   },
-  "author": "",
+  "author": "Anthony Napolitano",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/aNap73/Eat-Da-Burger/issues"
