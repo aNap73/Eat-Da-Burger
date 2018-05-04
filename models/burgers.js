@@ -10,9 +10,9 @@
 
 var orm = require('../config/orm.js');
 var burgers = {
-  getallburgers: function(){ orm.selectAll(output, 'burgers')},
-  insertaburger: function(obj){ orm.insertOne(output,'burgers',obj)},
-  updateaburger: function(setobj, burgerid){ orm.updateOne(output,'burgers',setobj,{ID: burgerid})}
+  getallburgers: function(cb){ orm.selectAll(cb, 'burgers')},
+  insertaburger: function(cb, obj){ orm.insertOne(cb,'burgers',obj)},
+  updateaburger: function(cb, setobj, burgerid){ orm.updateOne(cb,'burgers',setobj,{ID: burgerid})}
 }
 function output(data){
 console.log(data);
