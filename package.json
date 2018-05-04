@@ -2,10 +2,10 @@
   "name": "eat-da-burger",
   "version": "1.0.0",
   "description": "This fun app will use, JS, Node, Express, Handlebars and sql to create a burger eatten tracker.",
-  "main": "index.js",
-  "start": "server.js",
+  "main": "index.js", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
