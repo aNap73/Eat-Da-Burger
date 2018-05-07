@@ -3,9 +3,13 @@
 
 This fun app will use, JS, Node, Express, Handlebars and sql to create a burger eatting tracker.
 
-Use the top area of the site to challeng other people to eat real life hamburgers. When they do they can check off that they ate one someone posted, or they can just tell everyone about the Burger they just ate. 
+Use the top area of the site to challenge other people to eat burgers you dream up, when you add one it will show up on the bottom right of the screen. 
 
-Folks can come in find burgers others have posted and "Devour" them. Once they do the burger moves over to the right side of the app in the log where it is commemorated forever. (until I wipe it :D)
+Folks can come in find burgers others have posted and "Devour" them also. Once they do the burger moves over to the Burger Log where it is commemorated forever in all it's eaten glory. (more like it's made up glory till I wipe it :D)
+
+If your too busy for all that and just have to let us know the burger you just ate, you can do that also, by simply selecting Devoured instead of Challenge when entering a new burger.
+
+Good Luck and Happy Eats
 
 [Check Out the Site Here](https://hidden-depths-72803.herokuapp.com/)
 
@@ -14,6 +18,8 @@ Folks can come in find burgers others have posted and "Devour" them. Once they d
 #### This program uses MVC or (Model, View Controller)
 
 This design pattern is a bit trickey to set up and get used to at first, but it has a TON of advantages, of which two strong ones are it's flexibility and ease of maintenance. 
+
+I also had some fun making the 3d model for the spinning burger. I'll get more use out of it as it's pretty detailed and moduler.
 
 #### Home Grown ORM's
 
