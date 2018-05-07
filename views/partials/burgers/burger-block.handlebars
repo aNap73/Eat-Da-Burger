@@ -1,6 +1,17 @@
-<li>
-	{{BURGER_NAME}}
-	<button class="change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
-		{{#if DEVOURED}}BARF BACK!{{else}}READY FOR YOU MOUTH!{{/if}}
-	</button>
-</li>
+<div class="row">
+	<div class="col-3 ">
+		{{BURGER_NAME}}
+	</div>
+	{{#unless DEVOURED}}
+	<div class="col-3 offset-col-1">
+		
+		<button class="btn btn-primary change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
+			{{#if DEVOURED}}UN-EAT!{{else}}EAT!{{/if}}
+		</button>
+		
+	</div>
+	<div class="col-3 offset-col-1">
+		<button class="btn btn-primary remove-eaten" data-id="{{id}}">REMOVE!</button>
+	</div>
+	{{/unless}}
+</div>

@@ -12,7 +12,8 @@ var orm = require('../config/orm.js');
 var burgers = {
   getallburgers: function(cb){ orm.selectAll(cb, 'burgers')},
   insertaburger: function(cb, obj){ orm.insertOne(cb,'burgers',obj)},
-  updateaburger: function(cb, setobj, burgerid){ orm.updateOne(cb,'burgers',setobj,{ID: burgerid})}
+  updateaburger: function(cb, setobj, burgerid){ orm.updateOne(cb,'burgers',setobj,{ID: burgerid})},
+  deleteburgers: function(cb, whereobj) {orm.deleteOne(cb,'burgers',whereobj)}
 }
 function output(data){
 console.log(data);

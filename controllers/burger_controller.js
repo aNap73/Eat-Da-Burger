@@ -40,6 +40,21 @@ router.put("/api/burgers/:id", function(req, res) {
     }
     res.status(200).end();}, {DEVOURED: req.body.DEVOURED}, req.params.id);
 });
+router.delete("/api/burgers/", function(req, res) {
+  
+    mod.deleteburgers(function(result) {
+      res.status(200).end();},  {DEVOURED: 1});
+  
+  
+});
+router.delete("/api/burgers/:id", function(req, res) {
+  if(req.params.id){
+    mod.deleteburgers(function(result) {
+      res.status(200).end();},  {id: req.params.id});
+  }
+  
+});
+
 
 module.exports=router;
 

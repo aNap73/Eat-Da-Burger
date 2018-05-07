@@ -1,11 +1,44 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
   console.log('pagejs run');
+  $(".remove-log").on("click", function(event) {    
+    //var id = $(this).data("id");
+     
+    
+    // Send the PUT request.
+    $.ajax("/api/burgers/", {
+      type: "DELETE"
+    }).then(
+      function() {
+        console.log("DELETED");
+        // Reload the page to get the updated list
+        location.reload();
+      }
+    );
+  });
+  
+  $(".remove-eaten").on("click", function(event) {    
+    var id = $(this).data("id");
+     
+    
+    // Send the PUT request.
+    $.ajax("/api/burgers/" + id, {
+      type: "DELETE"
+    }).then(
+      function() {
+        console.log("DELETED");
+        // Reload the page to get the updated list
+        location.reload();
+      }
+    );
+  });
+
+
   $(".change-eaten").on("click", function(event) {    
     var id = $(this).data("id");
     var newDEVOURED = $(this).data("neweaten");   
     var newDEVOUREDSTATE = {
-      DEVOURED: newDEVOURED
+      DEVOURED: 1
     };
 
  

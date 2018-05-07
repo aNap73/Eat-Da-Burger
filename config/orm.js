@@ -43,6 +43,13 @@ var orm = {
       return cb(data);
     })
   },
+  deleteOne: function (cb, tablename, keyobj) {
+    let sql = 'DELETE FROM ?? WHERE ?';
+    con.query(sql, [tablename, keyobj], function (err, data) {
+      if (err) throw err;
+      return cb(data);
+    })
+  },
 }
 
 
