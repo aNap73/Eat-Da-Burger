@@ -45,4 +45,4 @@ Express, I have to say setting up routes is ALOT of fun. My grandfather was a li
 
 #### I heard you like programs; so I put some programs in your programs?
 
-I always find it amusing when it becomes time to stuff one program into another, so it can shoot out at some point and do it's job. One of my most proud moments was when the first litte piece of code, I taught how to upgrade itself in the field, called home, patched itself remotely, and checked back in operational. I still think of that little program and smile.  
+I always find it amusing when it becomes time to stuff one program into another, so it can shoot out at some point and do it's job. One of my most proud moments was the first time I accomplished getting a remote client to self update, I taught that piece of code how to ride the hurricane, man lol. Great fun.  
