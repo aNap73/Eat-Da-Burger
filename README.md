@@ -19,7 +19,7 @@ Good Luck and Happy Eats
 
 This design pattern is a bit trickey to set up and get used to at first, but it has a TON of advantages, of which two strong ones are it's flexibility and ease of maintenance. 
 
-I also had some fun making the 3d model for the spinning burger. I'll get more use out of it as it's pretty detailed and moduler.
+I also had some fun making the 3d model for the spinning burger. :D
 
 #### Home Grown ORM's
 
