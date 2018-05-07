@@ -23,7 +23,7 @@ I also had some fun making the 3d model for the spinning burger. :D
 
 #### JAWS_DB
 
-Sweet free?...? webhosting for MySql Databases that works native with Heroku and is totally secure, yea! Much Dancing.
+Sweet free?...? webhosting for MySql Databases that works native with Heroku and is totally secure, yea! What could go wrong!
 
 #### Home Grown ORM's
 
