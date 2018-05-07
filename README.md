@@ -3,9 +3,9 @@
 
 This fun app will use, JS, Node, Express, Handlebars and sql to create a burger eatting tracker.
 
-Use the top area of the site to challenge other people to eat burgers you dream up, when you add one it will show up on the bottom right of the screen. 
+Use the top area of the site to challenge other people to eat burgers you dream up, when you add one it will show up on the bottom left of the screen. 
 
-Folks can come in find burgers others have posted and "Devour" them also. Once they do the burger moves over to the Burger Log where it is commemorated forever in all it's eaten glory. (more like it's made up glory till I wipe it :D)
+Folks can come in find burgers others have posted and then "Devour" them. Once "Devour" a burger that burger moves over to the Burger Log where it is commemorated forever in all it's eaten glory. (more like it's made up glory till I wipe it :D)
 
 If your too busy for all that and just have to let us know the burger you just ate, you can do that also, by simply selecting Devoured instead of Challenge when entering a new burger.
 
