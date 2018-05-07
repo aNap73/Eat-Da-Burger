@@ -21,6 +21,10 @@ This design pattern is a bit trickey to set up and get used to at first, but it 
 
 I also had some fun making the 3d model for the spinning burger. :D
 
+#### JAWS_DB
+
+Sweet free?...? webhosting for MySql Databases that works native with Heroku and is totally secure, yea! Much Dancing.
+
 #### Home Grown ORM's
 
 This program also uses an orm (Object Relational Model) I kind of rolled it from scratch after learning how in class. I'm still a little leary of orm's as an old database speed hacker, I can see where there could be issues. This one however is really simple and seems to get it's job done communicating with the model.
