@@ -1,5 +1,6 @@
 # Eat-Da-Burger
 ![BURGER](https://hidden-depths-72803.herokuapp.com/assets/img/Burger.gif)
+
 This fun app will use, JS, Node, Express, Handlebars and sql to create a burger eatting tracker.
 
 [Check Out the Site Here](https://hidden-depths-72803.herokuapp.com/)
