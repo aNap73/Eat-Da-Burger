@@ -6,44 +6,54 @@
   </nav>
   <div>
     <div class="jumbotron bg-dark text-primary">
-      <h2 class="border-bottom">Add a Burger</h2>
+      <h2 class="border-bottom">Add a Burger Challenge!</h2>
       <form class="create-form">
         <div class="form-group">
-          <label for="burg">Burger Name:</label>
-          <input type="text" id="burg" name="BURGER_NAME">
+          <div class="row">
+
+            <div class="col-md-2">
+              <label for="burg">Burger Description / Name:</label>
+            </div>
+            <div class="col-md-3">
+              <input type="text" id="burg" name="BURGER_NAME"></input>
+            </div>
+            <div class="col-md-2">
+              <div class="form-group">
+                <label for="devo">Did You Eat It?</label>
+                <br>
+                <input type="radio" name="DEVOURED" value="0" checked>Ready to eat!</input>
+                <br>
+                <input type="radio" name="DEVOURED" value="1">Already Devoured!</input>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <button class="btn btn-primary" type="submit">Add Burger</button>
+            </div>
+
+          </div>
+
         </div>
-
-        <div class="form-group">
-          <label for="devo">Devoured?</label>
-          <br>
-          <input type="radio" name="DEVOURED" value="0" checked> READY TO EAT!
-          <br>
-          <input type="radio" name="DEVOURED" value="1"> DEVOURED!
-
-        </div>
-
-        <button class="btn btn-primary" type="submit">Add Burger</button>
       </form>
 
+ </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <div class="jumbotron bg-dark text-primary">
+      <h2 class="border-bottom">Burgers Challenged!</h2>
+
+      {{#each burgers}} {{#unless DEVOURED}} {{> burgers/burger-block eaten=1}} {{/unless}} {{/each}}
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-6">
-      <div class="jumbotron bg-dark text-primary">
-        <h2 class="border-bottom">Burgers Challenged!</h2>
-        
-        {{#each burgers}} {{#unless DEVOURED}} {{> burgers/burger-block eaten=1}} {{/unless}} {{/each}}
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="jumbotron bg-dark text-primary">
-        
-            <h2 class="border-bottom">Burgers Eatten!</h2>
-            
-        
-        {{#each burgers}} {{#if DEVOURED}} {{> burgers/burger-block eaten=0}} {{/if}} {{/each}}
-      </div>
+  <div class="col-md-6">
+    <div class="jumbotron bg-dark text-primary">
+
+      <h2 class="border-bottom">Burgers Eatten!</h2>
+
+
+      {{#each burgers}} {{#if DEVOURED}} {{> burgers/burger-block eaten=0}} {{/if}} {{/each}}
     </div>
   </div>
-  
+</div>
+
 </div>
