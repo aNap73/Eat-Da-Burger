@@ -1,20 +1,20 @@
 <div class="row">
- 	<div class="col-2">
+ 	<div class="col-4">
 		{{BURGER_NAME}}
 	</div>
 	{{#if DEVOURED}}
-	<div class="col-6">
+	<div class="col-4">
 		{{createdAt}}
 	</div>
 	{{/if}}
 	{{#unless DEVOURED}}
-	<div class="col-2">
+	<div class="col-4">
 		<button class="btn btn-primary change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
-			EAT!
+			Devour!
 		</button>
 	</div>
-	<div class="col-2">
-		<button class="btn btn-primary remove-eaten" data-id="{{id}}">REMOVE!</button>
+	<div class="col-4">
+		<button class="btn btn-primary remove-eaten" data-id="{{id}}">Remove!</button>
 	</div>
 	{{/unless}}
 </div>
