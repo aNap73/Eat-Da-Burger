@@ -12,6 +12,9 @@ USE BURGER_DB;
 
 DROP TABLE `burgers`;
 
+DROP TABLE `burgers`;
+
+
 CREATE TABLE `burgers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `BURGER_NAME` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
@@ -20,6 +23,7 @@ CREATE TABLE `burgers` (
   `createdAt` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
 
 DELETE from burgers;
 

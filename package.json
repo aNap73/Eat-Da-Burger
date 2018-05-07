@@ -2,7 +2,7 @@
   "name": "eat-da-burger",
   "version": "1.0.0",
   "description": "This fun app will use, JS, Node, Express, Handlebars and sql to create a burger eatten tracker.",
-  "main": "server.js", 
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -21,6 +21,7 @@
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
+    "moment": "^2.22.1",
     "mysql": "^2.15.0"
   }
 }

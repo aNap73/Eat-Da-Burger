@@ -1,16 +1,19 @@
 <div class="row">
-	<div class="col-3 ">
+ 	<div class="col-2">
 		{{BURGER_NAME}}
 	</div>
-	{{#unless DEVOURED}}
-	<div class="col-3 offset-col-1">
-		
-		<button class="btn btn-primary change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
-			{{#if DEVOURED}}UN-EAT!{{else}}EAT!{{/if}}
-		</button>
-		
+	{{#if DEVOURED}}
+	<div class="col-6">
+		{{createdAt}}
 	</div>
-	<div class="col-3 offset-col-1">
+	{{/if}}
+	{{#unless DEVOURED}}
+	<div class="col-2">
+		<button class="btn btn-primary change-eaten" data-id="{{id}}" data-neweaten="{{eaten}}">
+			EAT!
+		</button>
+	</div>
+	<div class="col-2">
 		<button class="btn btn-primary remove-eaten" data-id="{{id}}">REMOVE!</button>
 	</div>
 	{{/unless}}

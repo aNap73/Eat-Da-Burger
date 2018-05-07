@@ -1,7 +1,7 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
   console.log('pagejs run');
-  $(".remove-log").on("click", function(event) {    
+   $(".remove-log").on("click", function(event) {    
     //var id = $(this).data("id");
      
     

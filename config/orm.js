@@ -15,7 +15,7 @@ var con = require('./connection.js');
 
 var orm = {
   selectAll: function (cb, tablename) {
-    con.query('Select * From ??', [tablename], function (err, data) {
+    con.query('Select * From ?? ORDER BY createdAt DESC', [tablename], function (err, data) {
       if (err) throw err;
       return cb(data);
     });
