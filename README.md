@@ -3,6 +3,10 @@
 
 This fun app will use, JS, Node, Express, Handlebars and sql to create a burger eatting tracker.
 
+Use the top area of the site to challeng other people to eat real life hamburgers. When they do they can check off that they ate one someone posted, or they can just tell everyone about the Burger they just ate. 
+
+Folks can come in find burgers others have posted and "Devour" them. Once they do the burger moves over to the right side of the app in the log where it is commemorated forever. (until I wipe it :D)
+
 [Check Out the Site Here](https://hidden-depths-72803.herokuapp.com/)
 
 ### Why I think it's cool
