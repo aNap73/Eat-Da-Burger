@@ -1,5 +1,6 @@
 # Eat-Da-Burger
-![BURGER](https://hidden-depths-72803.herokuapp.com/assets/img/Burger.gif)
+
+![SITEGIF](https://raw.githubusercontent.com/aNap73/Bootstrap-Portfolio.github.io/master/assets/images/BurgSite.gif)
 
 This fun web app uses, JS, Node, Express, Handlebars and sql to create a burger eating tracker.
 
@@ -11,6 +12,9 @@ If you're too busy for all that, simply let us know the burger you recently ate,
 Good Luck and Happy Eats!
 
 [Check Out the Site Here](https://hidden-depths-72803.herokuapp.com/)
+
+![BURGER](https://hidden-depths-72803.herokuapp.com/assets/img/Burger.gif)
+
 
 ### Why I think it's cool
 
